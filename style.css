@@ -1,0 +1,132 @@
+*, ::after, ::before {
+    box-sizing:border-box;
+}
+
+.navbar{
+    border:none;
+    padding:20px;
+    background: rebeccapurple;
+    border-radius: 0;
+}
+
+.navbar a{
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    font-size: 1.6em;
+}
+
+/* wrapper */
+.wrapper{
+    background: #fff;
+}
+
+.main{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+/* footer css */
+.footer{
+    background: #111;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    top: 20px !important;
+}
+
+.footer .list .list-item{
+    list-style: none;
+}
+
+.footer .list .title, h4{
+    color: #ff9800;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.footer .list .social-icons a{
+    padding-right: 10px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    position: relative;
+    top: 20px !important;
+    left: -40px;
+}
+.text-company,
+.title{
+    color: #ff9800;
+}
+
+.footer .list .list-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .list .list-item a:hover,
+.footer .list .list-item a::before{
+    color:  #ff9800;
+    /* border-left-color: #ff9800;
+    border-left-style: solid;
+    border-left-width: 2px; */
+}
+
+/* panel css */
+
+.panel{
+    border: none;
+    text-align: justify;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.panel .panel-heading {
+    background: #ff9800;
+    color: #fff;
+}
+
+.panel .panel-heading .panel-title {
+    font-weight: bold !important;
+}
+
+/* carousel slider */
+.carousel {
+    position: relative;
+    top: -20px !important;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item a > img {
+    display: block;
+    height: 500px;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    line-height: 1;
+}
+
+.carousel-inner .carousel-caption {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.carousel-inner .carousel-caption h3 {
+    font-size: 3.4em;
+}
+
+.carousel-inner .carousel-caption p{
+    font-size: 1.4em;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-caption h3{
+        font-size: 2em;
+    }
+
+    .carousel-inner .carousel-caption p {
+        font-size: 1em;
+    }
+}
